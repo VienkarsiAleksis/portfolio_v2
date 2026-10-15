@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+:global(*) {
+    box-sizing: border-box;
+}
+
+:global(html) {
+    scroll-behavior: smooth;
+}
+
+:global(body) {
+    margin: 0;
+    background: #f5f5f3;
+}
+
+.navbar h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #bc707a;
+}
+
+.options a {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: color 0.2s ease;
+}
+
+.options a:hover {
+    color: #bc707a;
+}
+
+.name {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: clamp(36px, 4vw, 48px);
+    letter-spacing: 0.05em;
+}
+
+.name span {
+    color: #bc707a;
+}
+
+.dev {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 32px);
+    color: #171717;
+}
+
+.devText {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 1.6;
+    color: #737373;
+}
+
+.style h2,
+.contacts h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: clamp(38px, 4vw, 48px);
+    letter-spacing: 0.05em;
+}
+
+.design h2,
+.skills h2,
+.contacts h2 {
+    color: #bc707a;
+}
+
+.design p,
+.skills p {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(18px, 2vw, 24px);
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.school h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: clamp(38px, 4vw, 48px);
+    color: white;
+}
+
+.school p {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+}
+
+.school a {
+    color: black;
+    text-decoration: underline;
+}
+
+.contacts p {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(17px, 2vw, 22px);
+    line-height: 1.5;
+}
+
+.sectionNumber,
+.sectionNumberLight {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+}
+
+.sectionNumber {
+    color: #bc707a;
+}
+
+.sectionNumberLight {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes waveFloat {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2px);
+    }
+}
+
+.animate-fade-up {
+    animation: fadeUp 0.8s ease-out both;
+}
+
+.animate-wave {
+    animation: waveFloat 5s ease-in-out infinite;
+}
+
