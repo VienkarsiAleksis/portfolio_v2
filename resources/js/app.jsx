@@ -1,19 +1,10 @@
 import '../css/app.css';
 
 import { createRoot } from 'react-dom/client';
-import { createInertiaApp } from '@inertiajs/react';
-import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
 
-createInertiaApp({
-    resolve: (name) =>
-        resolvePageComponent(
-            `./pages/${name}.jsx`,
-            import.meta.glob('./pages/**/*.jsx')
-        ),
+const path = window.location.pathname.replace(/\/+$/, '') || '/';
+const Page = path === '/projects' ? Projects : Home;
 
-    setup({ el, App, props }) {
-        createRoot(el).render(
-            <App {...props} />
-        );
-    },
-});
+createRoot(document.getElementById('root')).render(<Page />);

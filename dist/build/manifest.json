@@ -1,0 +1,86 @@
+{
+  "_fonts-C9MNnjVw.css": {
+    "file": "assets/fonts-C9MNnjVw.css",
+    "src": "_fonts-C9MNnjVw.css"
+  },
+  "_iconBase-B5fKcX3z.css": {
+    "file": "assets/iconBase-B5fKcX3z.css",
+    "src": "_iconBase-B5fKcX3z.css"
+  },
+  "_iconBase-D5X7iBy0.js": {
+    "file": "assets/iconBase-D5X7iBy0.js",
+    "name": "iconBase",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/iconBase-B5fKcX3z.css"
+    ]
+  },
+  "_instrument-sans-400-normal-D1W7dsQl.woff": {
+    "file": "assets/instrument-sans-400-normal-D1W7dsQl.woff",
+    "src": "_instrument-sans-400-normal-D1W7dsQl.woff"
+  },
+  "_instrument-sans-400-normal-DRC__1Mx.woff2": {
+    "file": "assets/instrument-sans-400-normal-DRC__1Mx.woff2",
+    "src": "_instrument-sans-400-normal-DRC__1Mx.woff2"
+  },
+  "_instrument-sans-500-normal-Dk9ku72i.woff2": {
+    "file": "assets/instrument-sans-500-normal-Dk9ku72i.woff2",
+    "src": "_instrument-sans-500-normal-Dk9ku72i.woff2"
+  },
+  "_instrument-sans-500-normal-Z6ESRlEs.woff": {
+    "file": "assets/instrument-sans-500-normal-Z6ESRlEs.woff",
+    "src": "_instrument-sans-500-normal-Z6ESRlEs.woff"
+  },
+  "_instrument-sans-600-normal-B7fBEWYG.woff2": {
+    "file": "assets/instrument-sans-600-normal-B7fBEWYG.woff2",
+    "src": "_instrument-sans-600-normal-B7fBEWYG.woff2"
+  },
+  "_instrument-sans-600-normal-B9e8oLYv.woff": {
+    "file": "assets/instrument-sans-600-normal-B9e8oLYv.woff",
+    "src": "_instrument-sans-600-normal-B9e8oLYv.woff"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CCCGlQ6y.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-AxDn0frw.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/Home.jsx",
+      "resources/js/pages/Projects.jsx"
+    ],
+    "css": [
+      "assets/app-CCCGlQ6y.css"
+    ]
+  },
+  "resources/js/pages/Home.jsx": {
+    "file": "assets/Home-SGx71Sto.js",
+    "name": "Home",
+    "src": "resources/js/pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_iconBase-D5X7iBy0.js"
+    ]
+  },
+  "resources/js/pages/Projects.jsx": {
+    "file": "assets/Projects-3U69IpFA.js",
+    "name": "Projects",
+    "src": "resources/js/pages/Projects.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_iconBase-D5X7iBy0.js"
+    ]
+  }
+}

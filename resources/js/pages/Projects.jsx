@@ -1,4 +1,4 @@
-import Navbar from '@/Components/Navbar';
+import Navbar from '../Components/Navbar';
 import styles from '../../css/Home.module.scss';
 import { MdOutlineScreenshotMonitor } from "react-icons/md";
 
