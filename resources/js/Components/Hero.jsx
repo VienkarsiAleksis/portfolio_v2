@@ -19,12 +19,24 @@ export default function Hero() {
                 <div className="w-full max-w-[700px]">
                     <h1 className={`${styles.name} m-0`}>
                         Hi, I’m <span>Aleksis Ošiņš.</span>
-                    </h1>
+                    </h1>               
+                    <div className="flex flex-col items-start gap-3">
+                        <h2 className={`${styles.dev} m-0`}>
+                            Full-stack developer.
+                        </h2>
 
-                    <h2 className={`${styles.dev} mt-[-10px]`}>
-                        Full-stack developer.
-                    </h2>
+                        <div className="flex flex-wrap items-center gap-2">
+                            <span className="inline-flex items-center gap-2 rounded-full border border-black/15 px-3 py-1.5 text-xs font-medium text-black/70 transition-colors duration-200 hover:border-black/30 sm:text-sm">
+                                <span className="h-1.5 w-1.5 rounded-full bg-black/50" />
+                                21 years · 11.02.2005
+                            </span>
 
+                            <span className="inline-flex items-center gap-2 rounded-full border border-black/15 px-3 py-1.5 text-xs font-medium text-black/70 transition-colors duration-200 hover:border-black/30 sm:text-sm">
+                                <span className="h-1.5 w-1.5 rounded-full bg-black/50" />
+                                Cēsis, Latvia
+                            </span>
+                        </div>
+                    </div>
                     <p className={`${styles.devText} mt-6 max-w-[650px]`}>
                         I'm a motivated Programming Technician with a strong
                         work ethic and a passion for learning. I adapt quickly,
@@ -33,21 +45,26 @@ export default function Hero() {
 
                     <div className="mt-8 flex gap-5">
                         <SocialLink
-                            href="https://instagram.com/"
+                            href="https://www.instagram.com/vienkarsialeksis/"
                             image="/images/insta.png"
                             label="Instagram"
                         />
 
                         <SocialLink
-                            href="https://facebook.com/"
+                            href="https://www.facebook.com/Aleku1223"
                             image="/images/face.png"
                             label="Facebook"
                         />
 
                         <SocialLink
-                            href="https://github.com/"
+                            href="https://github.com/VienkarsiAleksis"
                             image="/images/git.png"
                             label="GitHub"
+                        />
+                        <SocialLink
+                            href="https://www.linkedin.com/in/aleksis-o%C5%A1i%C5%86%C5%A1-352834329/"
+                            image="/images/linkedin.png"
+                            label="LinkedIn"
                         />
                     </div>
                 </div>

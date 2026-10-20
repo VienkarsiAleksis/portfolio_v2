@@ -9,7 +9,7 @@ export default function Navbar() {
 
             <div className={`${styles.options} ml-auto flex items-center gap-8 md:gap-[54px]`}>
                 <a href="/projects">Projects</a>
-                <a href="/contact">Contacts</a>
+                {/* <a href="/contact">Contacts</a> */}
             </div>
         </nav>
     );

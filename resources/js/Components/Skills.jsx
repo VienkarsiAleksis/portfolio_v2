@@ -5,8 +5,11 @@ import {
     FaLaravel,
     FaCss3Alt,
     FaJs,
+    FaDocker
 } from 'react-icons/fa';
 
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiStatamic } from "react-icons/si";
 import { DiMysql } from 'react-icons/di';
 import Wave from '../Components/Waves';
 import styles from '../../css/Home.module.scss';
@@ -40,6 +43,18 @@ const technologies = [
         name: 'MySQL',
         icon: DiMysql,
     },
+    {
+        name: 'Statamic',
+        icon: SiStatamic,
+    },
+    {
+        name: 'Docker',
+        icon: FaDocker,
+    },
+    {
+        name: 'Tailwind CSS',
+        icon: RiTailwindCssFill,
+    },
 ];
 
 export default function Skills() {
@@ -55,14 +70,11 @@ export default function Skills() {
                     <h2>DESIGN</h2>
 
                     <p>
-                        I focus on creating sophisticated and intuitive
-                        interfaces, paying close attention to typography,
-                        spacing, composition and visual hierarchy.
+                        I create clean, modern, and visually appealing website designs that deliver an intuitive, seamless, and enjoyable user experience. I focus on every detail—from typography and content to layout and visual hierarchy—to ensure each website is both aesthetically pleasing and easy to navigate.
                     </p>
 
                     <p className="mt-5">
-                        My goal is to create interfaces that look distinctive
-                        while remaining simple and enjoyable to use.
+                        Every design is fully responsive, ensuring a smooth and consistent experience across desktop, tablet, and mobile devices.
                     </p>
                 </div>
             </div>

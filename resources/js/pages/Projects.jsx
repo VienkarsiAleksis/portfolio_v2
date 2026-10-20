@@ -25,8 +25,8 @@ const projects = [
         fullDescription: 'Personīgā portfolio tīmekļa vietne, kas izveidota, lai vienuviet prezentētu savus projektus, tehniskās prasmes un līdzšinējo pieredzi programmēšanā. Vietne sniedz pārskatāmu ieskatu par mani, kā arī ļauj ērti iepazīties ar katru projektu un tā izstrādes mērķi.',
         images: ['/images/portfolio.png'],
         gitLabel: 'GitHub',
-        gitLink: 'https://github.com/VienkarsiAleksis',
-        tech: ['Inertia', 'React', 'Laravel', 'Tailwind', 'SCSS']
+        gitLink: 'https://github.com/VienkarsiAleksis/portfolio_v2',
+        tech: ['Inertia', 'React', 'Laravel', 'Tailwind', 'SCSS', 'Vite']
     },
     {
         id: 'Wedding',
@@ -36,13 +36,24 @@ const projects = [
         fullDescription: 'Izstrādāju kāzu ielūguma tīmekļa vietni, kuras mērķis ir samazināt ar tradicionālajiem papīra ielūgumiem saistītās izmaksas un laiku, kas nepieciešams to izsūtīšanai. Vietne nodrošinās viesiem ērtu piekļuvi svarīgākajai informācijai par kāzu norisi, pasākuma datumu, laiku un norises vietu. Ir izveidota iespēja ar vienu klikšķi pievienot kāzu datumu personīgajam kalendāram.',
         images: ['/images/wedd1.png', '/images/wedd2.png'],
         gitLabel: 'GitHub',
-        gitLink: 'https://github.com/VienkarsiAleksis/portfolio_v2',
+        gitLink: 'https://github.com/VienkarsiAleksis/wedding',
         tech: ['React', 'Tailwind', 'SCSS']
+    },
+    {
+        id: 'Mind`f`er',
+        title: 'Mind`f`er',
+        label: 'Project 04',
+        description: 'Memory game on webiste, where players match pairs of cards with identical images, testing their memory and concentration skills.',
+        fullDescription: 'Atmiņas spēle ir interaktīva tīmekļa lietotne, kurā spēlētājiem jāatrod un jāsavieno vienādu emocijzīmju pāri, apgriežot spēles laukā izvietotās kartītes. Spēle sastāv no 20 līmeņiem, kuros kartīšu izkārtojums tiek ģenerēts nejauši katras spēles sākumā, nodrošinot daudzveidīgu spēles pieredzi. Katram līmenim ir noteikts laika ierobežojums, kura laikā spēlētājam jāatrod visi kartīšu pāri. Spēles laikā tiek uzskaitīts pavadītais laiks, mēģinājumu skaits un nopelnītās monētas. Punktu skaits ir atkarīgs no spēlētāja ātruma — par katru atrasto pāri tiek piešķirti punkti, kuru vērtība samazinās, spēles taimerim skaitot atlikušo laiku. Pēc līmeņa pabeigšanas spēlētājam tiek parādīta līmeņa rezultātu tabula (leaderboard), kurā iespējams salīdzināt rezultātus ar citiem spēlētājiem. Katram spēlētājam tiek saglabāts labākais sasniegtais rezultāts, un, sasniedzot augstāku rezultātu, iepriekšējais rezultāts tiek atjaunināts. Lietotnē ir pieejama reģistrēšanās un pierakstīšanās, kā arī lietotāja profila pārvaldība. Spēlētāji var mainīt paroli un pielāgot spēles vizuālo noformējumu, izmantojot veikalā par nopelnītajām monētām iegādātās fona tēmas.',
+        images: ['/images/mind.png', '/images/mind1.png', '/images/mind2.png'],
+        gitLabel: 'GitHub',
+        gitLink: 'https://github.com/VienkarsiAleksis/memoryGame',
+        tech: ['React', 'Laravel', 'MySql', 'SCSS']
     },
     {
         id: 'Streamify',
         title: 'Streamify',
-        label: 'Project 04',
+        label: 'Project 05',
         description: 'A scalable digital service concept for managing offers, onboarding details, and streamlined client communication.',
         fullDescription: 'Streamify ir mūzikas straumēšanas aplikācija, ko kopā ar draugu iesākām izstrādāt, iedvesmojoties no Musi — mūsu iecienītās bezmaksas mūzikas atskaņošanas aplikācijas. Pēc Musi izņemšanas no App Store radās ideja izveidot līdzīgu alternatīvu, izmantojot SoundCloud API, jo piekļuve YouTube API bija sarežģītāka. Aplikācija ļauj meklēt dziesmas, izpildītājus un atskaņošanas sarakstus, saglabāt iecienītākās dziesmas un veidot personīgos atskaņošanas sarakstus. Mūziku iespējams atskaņot gan ierastajā secībā, gan jauktā režīmā. Projekta mērķis bija radīt ērtu un lietotājam draudzīgu mūzikas klausīšanās pieredzi iOS ierīcēs, vienlaikus praktiski apgūstot mobilo lietotņu izstrādi un ārējo API integrāciju.',
         images: ['/images/streamify.png', '/images/streamify1.png'],
@@ -53,7 +64,7 @@ const projects = [
     {
         id: 'Gripstreet',
         title: 'Gripstreet',
-        label: 'Project 05',
+        label: 'Project 06',
         description: 'An informational website for the Gripstreet car club, designed to showcase the club and its activities.',
         fullDescription: 'Projekta ietvaros tika uzsākta informatīvas tīmekļa vietnes izstrāde auto klubam Gripstreet. Vietnes mērķis bija izveidot vienkāršu un pārskatāmu platformu, kurā apmeklētāji varētu iepazīties ar auto klubu, tā darbību un citu būtisku informāciju. Projekts tika izstrādāts atbilstoši klienta sākotnējām vajadzībām, taču klienta prioritāšu maiņas dēļ tā izstrāde netika pabeigta.',
         images: ['/images/gripstreet.png'],
