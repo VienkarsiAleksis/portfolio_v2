@@ -213,4 +213,4 @@ export default function Projects() {
 //streamify
 //news
 //gripstreet
-//
+// Es veidoju vieglus un modernus dizainus, kas sniedz viegli parskatāmu mājaslapu pieredzi, izbaudamību lietotjot to, kā arī acim patiku klientiem. Pieversu uzmanību detaļām, tekstam, teksta dizainam, izkartojumam. Vienmēr iekļaujot mobilo versiju.
